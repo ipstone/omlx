@@ -52,7 +52,7 @@ dependencies = [
     # Resource monitoring
     "psutil>=5.9.0",
     # Server
-    "fastapi>=0.108.0",
+    "fastapi>=0.109.1",
     "uvicorn>=0.23.0",
     # JSON Schema validation for structured output
     "jsonschema>=4.0.0",
@@ -60,12 +60,12 @@ dependencies = [
     "openai-harmony",
     # mlx-vlm from commit (b7f853a)
     "mlx-vlm @ git+https://github.com/Blaizzy/mlx-vlm@b7f853a26a0bdcb60a307b1deb01ba5be9ac9ffc",
-    "Pillow>=9.0.0",
+    "Pillow>=10.2.0",
 ]
 
 [project.optional-dependencies]
 mcp = [
-    "mcp>=1.0.0",
+    "mcp>=1.23.0",
 ]
 modelscope = [
     "modelscope>=1.10.0",
@@ -73,10 +73,10 @@ modelscope = [
 dev = [
     "pytest>=7.0.0",
     "pytest-asyncio>=0.21.0",
-    "black>=23.0.0",
+    "black>=26.3.1",
     "ruff>=0.1.0",
     "mypy>=1.0.0",
-    "mcp>=1.0.0",
+    "mcp>=1.23.0",
 ]
 # PEP 735 dependency groups — consumed by `uv sync --dev`.
 # Keep in sync with [project.optional-dependencies] dev above
@@ -85,10 +85,10 @@ dev = [
 dev = [
     "pytest>=7.0.0",
     "pytest-asyncio>=0.21.0",
-    "black>=23.0.0",
+    "black>=26.3.1",
     "ruff>=0.1.0",
     "mypy>=1.0.0",
-    "mcp>=1.0.0",
+    "mcp>=1.23.0",
 ]
 
 [project.urls]
